@@ -1,11 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "WX20230912-184946.png",
+      "filename" : "preview.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "preview2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
