@@ -13,6 +13,7 @@
 		9436CE002AAF427C00E6A927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9436CDFF2AAF427C00E6A927 /* Preview Assets.xcassets */; };
 		9436CE082AAF5CAC00E6A927 /* TexterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436CE072AAF5CAC00E6A927 /* TexterView.swift */; };
 		949319952AAF5F4000B35D12 /* TexterContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949319942AAF5F4000B35D12 /* TexterContentView.swift */; };
+		EDEFF0BD3CF0F6A1FBBB5E37 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EDE7D87041C35F023D824E4E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9436CE012AAF427C00E6A927 /* M_Texter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = M_Texter.entitlements; sourceTree = "<group>"; };
 		9436CE072AAF5CAC00E6A927 /* TexterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexterView.swift; sourceTree = "<group>"; };
 		949319942AAF5F4000B35D12 /* TexterContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexterContentView.swift; sourceTree = "<group>"; };
+		EDE7D87041C35F023D824E4E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			children = (
 				9436CDF72AAF427B00E6A927 /* M-Texter */,
 				9436CDF62AAF427B00E6A927 /* Products */,
+				EDE7D87041C35F023D824E4E /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +142,7 @@
 			files = (
 				9436CE002AAF427C00E6A927 /* Preview Assets.xcassets in Resources */,
 				9436CDFD2AAF427C00E6A927 /* Assets.xcassets in Resources */,
+				EDEFF0BD3CF0F6A1FBBB5E37 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
