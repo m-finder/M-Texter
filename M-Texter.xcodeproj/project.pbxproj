@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94014DC12AB048C90048FC42 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94014DC02AB048C90048FC42 /* ColorModel.swift */; };
+		9436CDF92AAF427B00E6A927 /* M_TexterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436CDF82AAF427B00E6A927 /* M_TexterApp.swift */; };
+		9436CDFD2AAF427C00E6A927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9436CDFC2AAF427C00E6A927 /* Assets.xcassets */; };
+		9436CE002AAF427C00E6A927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9436CDFF2AAF427C00E6A927 /* Preview Assets.xcassets */; };
+		9436CE082AAF5CAC00E6A927 /* TexterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436CE072AAF5CAC00E6A927 /* TexterView.swift */; };
+		949319952AAF5F4000B35D12 /* TexterContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949319942AAF5F4000B35D12 /* TexterContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94014DC02AB048C90048FC42 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		9436CDF52AAF427B00E6A927 /* M-Texter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M-Texter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9436CDF82AAF427B00E6A927 /* M_TexterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_TexterApp.swift; sourceTree = "<group>"; };
+		9436CDFC2AAF427C00E6A927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9436CDFF2AAF427C00E6A927 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9436CE012AAF427C00E6A927 /* M_Texter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = M_Texter.entitlements; sourceTree = "<group>"; };
+		9436CE072AAF5CAC00E6A927 /* TexterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexterView.swift; sourceTree = "<group>"; };
+		949319942AAF5F4000B35D12 /* TexterContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexterContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9436CDF22AAF427B00E6A927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9436CDEC2AAF427B00E6A927 = {
+			isa = PBXGroup;
+			children = (
+				9436CDF72AAF427B00E6A927 /* M-Texter */,
+				9436CDF62AAF427B00E6A927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9436CDF62AAF427B00E6A927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9436CDF52AAF427B00E6A927 /* M-Texter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9436CDF72AAF427B00E6A927 /* M-Texter */ = {
+			isa = PBXGroup;
+			children = (
+				94014DC02AB048C90048FC42 /* ColorModel.swift */,
+				9436CDF82AAF427B00E6A927 /* M_TexterApp.swift */,
+				9436CE072AAF5CAC00E6A927 /* TexterView.swift */,
+				949319942AAF5F4000B35D12 /* TexterContentView.swift */,
+				9436CDFC2AAF427C00E6A927 /* Assets.xcassets */,
+				9436CE012AAF427C00E6A927 /* M_Texter.entitlements */,
+				9436CDFE2AAF427C00E6A927 /* Preview Content */,
+			);
+			path = "M-Texter";
+			sourceTree = "<group>";
+		};
+		9436CDFE2AAF427C00E6A927 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9436CDFF2AAF427C00E6A927 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9436CDF42AAF427B00E6A927 /* M-Texter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9436CE042AAF427C00E6A927 /* Build configuration list for PBXNativeTarget "M-Texter" */;
+			buildPhases = (
+				9436CDF12AAF427B00E6A927 /* Sources */,
+				9436CDF22AAF427B00E6A927 /* Frameworks */,
+				9436CDF32AAF427B00E6A927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "M-Texter";
+			packageProductDependencies = (
+			);
+			productName = "M-Texter";
+			productReference = 9436CDF52AAF427B00E6A927 /* M-Texter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9436CDED2AAF427B00E6A927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9436CDF42AAF427B00E6A927 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9436CDF02AAF427B00E6A927 /* Build configuration list for PBXProject "M-Texter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9436CDEC2AAF427B00E6A927;
+			packageReferences = (
+			);
+			productRefGroup = 9436CDF62AAF427B00E6A927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9436CDF42AAF427B00E6A927 /* M-Texter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9436CDF32AAF427B00E6A927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9436CE002AAF427C00E6A927 /* Preview Assets.xcassets in Resources */,
+				9436CDFD2AAF427C00E6A927 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9436CDF12AAF427B00E6A927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9436CE082AAF5CAC00E6A927 /* TexterView.swift in Sources */,
+				94014DC12AB048C90048FC42 /* ColorModel.swift in Sources */,
+				9436CDF92AAF427B00E6A927 /* M_TexterApp.swift in Sources */,
+				949319952AAF5F4000B35D12 /* TexterContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9436CE022AAF427C00E6A927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9436CE032AAF427C00E6A927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9436CE052AAF427C00E6A927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "M-Texter/M_Texter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"M-Texter/Preview Content\"";
+				DEVELOPMENT_TEAM = Y38DNQ273W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wu.M-Texter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9436CE062AAF427C00E6A927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "M-Texter/M_Texter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"M-Texter/Preview Content\"";
+				DEVELOPMENT_TEAM = Y38DNQ273W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wu.M-Texter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9436CDF02AAF427B00E6A927 /* Build configuration list for PBXProject "M-Texter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9436CE022AAF427C00E6A927 /* Debug */,
+				9436CE032AAF427C00E6A927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9436CE042AAF427C00E6A927 /* Build configuration list for PBXNativeTarget "M-Texter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9436CE052AAF427C00E6A927 /* Debug */,
+				9436CE062AAF427C00E6A927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9436CDED2AAF427B00E6A927 /* Project object */;
+}
