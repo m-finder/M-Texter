@@ -10,7 +10,7 @@ import ServiceManagement
 
 struct TexterView: View {
     
-    @AppStorage("Texter") var Texter: String = "Hello World"
+    @AppStorage("Texter") var Texter: String = String(localized: "Hello World")
     @AppStorage("Colorful") var colorful:  Bool = false
     
     // 开机自启
@@ -39,8 +39,8 @@ struct TexterView: View {
 
                 Divider()
 
-                Text("Show text on menu bar")
-                TextField("Input something", text: $Texter)
+                Text(String(localized: "Show text on menu bar"))
+                TextField(String(localized: "Input something"), text: $Texter)
                     .textFieldStyle(.roundedBorder)
             }
 
@@ -48,13 +48,13 @@ struct TexterView: View {
             Spacer().frame(height: 20)
             HStack(alignment: .center, spacing: 10){
 
-                Toggle("Colorful", isOn: $colorful)
+                Toggle(String(localized: "Colorful"), isOn: $colorful)
                 .toggleStyle(SwitchToggleStyle())
                 .font(.system(size: 12))
 
                 Divider().frame(height: 40)
 
-                Toggle("Launch on Startup", isOn: $startUp)
+                Toggle(String(localized: "Launch on Startup"), isOn: $startUp)
                     .onChange(of: startUp, perform: { newValue in
                         if newValue {
                             if SMAppService.mainApp.status == .enabled {
@@ -91,7 +91,7 @@ struct TexterView: View {
             }
             
             
-            Button("Quit App") {
+            Button(String(localized: "Quit App")) {
                 NSApplication.shared.terminate(nil)
             }
             .keyboardShortcut("q")

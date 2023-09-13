@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  M-Texter
+
+  Created by 吴雲放 on 2023/9/13.
+  
+*/
+
+"Show text on menu bar" = "菜单栏文本";
+"Colorful" = "炫彩文字";
+"Launch on Startup" = "开机自启";
+"Quit App" = "退出";
+"Hello World" = "你好啊";
+"Input something" = "输入些什么";

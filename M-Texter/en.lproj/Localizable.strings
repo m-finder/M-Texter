@@ -1,0 +1,14 @@
+/*
+  Localizable.strings
+  M-Texter
+
+  Created by 吴雲放 on 2023/9/13.
+
+*/
+
+"Show text on menu bar" = "Show text on menu bar";
+"Colorful" = "Colorful";
+"Launch on Startup" = "Launch on Startup";
+"Quit App" = "Quit App";
+"Hello World" = "Hello World";
+"Input something" = "Input something";

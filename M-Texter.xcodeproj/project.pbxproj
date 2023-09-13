@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		94014DC12AB048C90048FC42 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94014DC02AB048C90048FC42 /* ColorModel.swift */; };
+		942D0E0A2AB1814F00C2B20F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 942D0E082AB1814F00C2B20F /* Localizable.strings */; };
 		9436CDF92AAF427B00E6A927 /* M_TexterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436CDF82AAF427B00E6A927 /* M_TexterApp.swift */; };
 		9436CDFD2AAF427C00E6A927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9436CDFC2AAF427C00E6A927 /* Assets.xcassets */; };
 		9436CE002AAF427C00E6A927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9436CDFF2AAF427C00E6A927 /* Preview Assets.xcassets */; };
 		9436CE082AAF5CAC00E6A927 /* TexterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436CE072AAF5CAC00E6A927 /* TexterView.swift */; };
 		949319952AAF5F4000B35D12 /* TexterContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949319942AAF5F4000B35D12 /* TexterContentView.swift */; };
+		EDEED68A65340D2263E10989 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDE2892EE17EEF02E550D98F /* Localizable.strings */; };
 		EDEFF0BD3CF0F6A1FBBB5E37 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EDE7D87041C35F023D824E4E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94014DC02AB048C90048FC42 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		942D0E092AB1814F00C2B20F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
 		9436CDF52AAF427B00E6A927 /* M-Texter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M-Texter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9436CDF82AAF427B00E6A927 /* M_TexterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_TexterApp.swift; sourceTree = "<group>"; };
 		9436CDFC2AAF427C00E6A927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		9436CE072AAF5CAC00E6A927 /* TexterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexterView.swift; sourceTree = "<group>"; };
 		949319942AAF5F4000B35D12 /* TexterContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexterContentView.swift; sourceTree = "<group>"; };
 		EDE7D87041C35F023D824E4E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		EDE9B11D18FA494C17605F1F /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				9436CDFC2AAF427C00E6A927 /* Assets.xcassets */,
 				9436CE012AAF427C00E6A927 /* M_Texter.entitlements */,
 				9436CDFE2AAF427C00E6A927 /* Preview Content */,
+				EDEA70C982304C5671A4A891 /* zh-Hans.lproj */,
+				EDE0F907F7FE342B4A6C2248 /* en.lproj */,
 			);
 			path = "M-Texter";
 			sourceTree = "<group>";
@@ -76,6 +82,22 @@
 				9436CDFF2AAF427C00E6A927 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDE0F907F7FE342B4A6C2248 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				EDE2892EE17EEF02E550D98F /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		EDEA70C982304C5671A4A891 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				942D0E082AB1814F00C2B20F /* Localizable.strings */,
+			);
+			path = "zh-Hans.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +131,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					9436CDF42AAF427B00E6A927 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -122,6 +145,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 9436CDEC2AAF427B00E6A927;
 			packageReferences = (
@@ -141,8 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9436CE002AAF427C00E6A927 /* Preview Assets.xcassets in Resources */,
+				942D0E0A2AB1814F00C2B20F /* Localizable.strings in Resources */,
 				9436CDFD2AAF427C00E6A927 /* Assets.xcassets in Resources */,
 				EDEFF0BD3CF0F6A1FBBB5E37 /* .gitignore in Resources */,
+				EDEED68A65340D2263E10989 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +187,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		942D0E082AB1814F00C2B20F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942D0E092AB1814F00C2B20F /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EDE2892EE17EEF02E550D98F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE9B11D18FA494C17605F1F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9436CE022AAF427C00E6A927 /* Debug */ = {

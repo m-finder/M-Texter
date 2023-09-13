@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TexterContentView: View {
     
-    @AppStorage("Texter") var Texter: String = "Hello World"
+    @AppStorage("Texter") var Texter: String = String(localized: "Hello World")
     @AppStorage("Colorful") var colorful:  Bool = false
     @AppStorage("ColorIndex") var colorIndex: Int = 0
     // 色卡
