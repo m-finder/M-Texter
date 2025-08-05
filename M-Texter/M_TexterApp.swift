@@ -10,14 +10,14 @@ import SwiftUI
 @main
 @available(macOS 13.0, *)
 struct M_TexterApp: App {
+  
+  var body: some Scene {
     
-    var body: some Scene {
-
-        MenuBarExtra {
-            TexterView().frame(width: 300, height: 350)
-        } label: {
-            TexterContentView()
-        }
-        .menuBarExtraStyle(.window)
+    MenuBarExtra {
+      TexterView().frame(width: 300, height: 450)
+    } label: {
+      TexterContentView()
     }
+    .menuBarExtraStyle(.window)
+  }
 }
