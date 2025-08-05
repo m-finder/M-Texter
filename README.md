@@ -14,3 +14,8 @@ Add a colorful message of sentiment to the menu bar.
 
 
 <img src="M-Texter/Preview Content/Preview Assets.xcassets/preview.imageset/iShot_2025-08-05_09.48.38.png">
+
+
+### License
+
+The M-Texter is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
