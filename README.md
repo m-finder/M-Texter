@@ -1,8 +1,8 @@
 # M-Texter
 
+Add a colorful message of sentiment to the menu bar.
 
-基于 Swift 5.8.1 的 macOS 菜单栏小应用，显示指定文字
+在菜单栏添加一句彩色的心情寄语。
 
 
-<img src="https://github.com/m-finder/M-Texter/blob/main/M-Texter/Preview%20Content/Preview%20Assets.xcassets/preview.imageset/preview.png">
-<img src="https://github.com/m-finder/M-Texter/blob/main/M-Texter/Preview%20Content/Preview%20Assets.xcassets/preview.imageset/preview2.png">
+<img src="M-Texter/Preview Content/Preview Assets.xcassets/preview.imageset/iShot_2025-08-05_09.48.38.png">
