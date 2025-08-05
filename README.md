@@ -1,5 +1,7 @@
 # M-Texter
 
+<a href="https://www.producthunt.com/products/github-160?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-github&#0045;cd7542ed&#0045;f4f5&#0045;49d9&#0045;bdff&#0045;fa34c52730ed" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1001659&theme=light&t=1754359850134" alt="GitHub - M&#0045;finder&#0047;m&#0045;texter&#0058;&#0032;m&#0045;texter&#0032;mac&#0032;menubar&#0032;app | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 支持 MacOS 13.0 及以上
 
 Supports macOS 13.0 and above
